@@ -1,6 +1,6 @@
 # 👻 Ghost Coach — AI-Powered Sports Coaching Assistant
 
-> Playmotech Engineering Assignment · Backend Role · May 2026
+> Built for Playmotech Ghost Coach Assignment · Role: Backend Engineer (Full Stack submission — Spring Boot + React 18)
 
 ---
 
@@ -41,7 +41,12 @@ mvn spring-boot:run
 ```bash
 cd frontend
 npm install
+# Windows (PowerShell):
+$env:REACT_APP_API_URL="http://localhost:8080"; npm start
+
+# Mac/Linux:
 REACT_APP_API_URL=http://localhost:8080 npm start
+
 # → http://localhost:3000
 ```
 
@@ -66,6 +71,10 @@ docker-compose up --build
 | 4 | AI Improvement Chat (context-aware) | ✅ Complete |
 | B1 | Score progress chart across sessions | ✅ Complete (bonus) |
 | B2 | Mobile-responsive UI | ✅ Complete (bonus) |
+
+| F1 | React UI — Register, Login, Upload, History, Chat, Profile | ✅ Complete |
+| F2 | Drag-and-drop upload with live AI polling | ✅ Complete |
+| F3 | Score progress chart (Recharts) | ✅ Complete |
 
 ---
 
