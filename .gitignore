@@ -1,0 +1,28 @@
+# Environment — NEVER commit secrets
+.env
+*.env
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+
+# Spring uploads
+uploads/
+data/
+
+# Node
+node_modules/
+build/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
